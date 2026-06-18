@@ -11,10 +11,13 @@ console.log("Tipo de edad:", typeof edad);
 console.log("Es estudiante:", esEstudiante);
 console.log("Tipo de esEstudiante:", typeof esEstudiante);
 
+const universidad = "UNTRM";
+console.log("Universidad:", universidad);
+
 // Paso 3: Plantillas literales
 let nombre = "Juan";
 
-let saludo = `Hola ${nombre}, tienes ${edad} años.`;
+let saludo = `Hola ${nombre}, tienes ${edad} años y estudias en la ${universidad}.`;
 console.log(saludo);
 
 // Cadena multilínea
